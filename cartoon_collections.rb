@@ -13,3 +13,6 @@ end
 
 def find_the_cheese(arr)
   
+  cheese = ["cheese", "gouda", "camembert"]
+  
+  arr.find {|c
