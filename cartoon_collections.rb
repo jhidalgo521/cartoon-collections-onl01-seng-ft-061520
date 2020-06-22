@@ -15,4 +15,5 @@ def find_the_cheese(arr)
   
   cheese = ["cheese", "gouda", "camembert"]
   
-  arr.find {|c
+  arr.find do | c |
+    cheese.include?(c)
