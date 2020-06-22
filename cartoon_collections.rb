@@ -4,5 +4,5 @@ end
 
 
 def summon_captain_planet(arr)
-  arr.collect { | n | n.capitalize }
+  arr.collect { | n | n.capitalize + "!" }
 end
