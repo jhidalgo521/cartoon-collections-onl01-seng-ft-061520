@@ -17,3 +17,6 @@ def find_the_cheese(arr)
   
   arr.find do | c |
     cheese.include?(c)
+  end
+  
+end
