@@ -11,3 +11,5 @@ def long_planeteer_calls(arr)
   arr.any? { | c | c.length > 4 }
 end
 
+def find_the_cheese(arr)
+  
